@@ -11,6 +11,7 @@ public class Db {
 
     public static void con() {
         try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD)) {
+            System.out.println("Connection done!");
 
         } catch (SQLException e){
             throw new RuntimeException();
