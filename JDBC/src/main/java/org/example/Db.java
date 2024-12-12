@@ -14,7 +14,6 @@ public class Db {
 
             statement.execute("DROP SCHEMA `test` ;");
             statement.execute("CREATE SCHEMA `test` ;");
-
             statement.execute("CREATE TABLE `test`.`table` (\n" +
                     " `id` INT NOT NULL,\n" +
                     " `firstname` VARCHAR(45) NULL,\n" +
